@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
 :root {
-  --gradient: linear-gradient(180deg, #ffa399, #ff4d97);
+  --gradient: linear-gradient(90deg, #ffa399, #ff4d97);
   --paleBlue: hsl(243, 100%, 93%);
   --grayishBlue: hsl(229, 7%, 55%);
   --darkBlue: hsl(228, 56%, 26%);
@@ -26,7 +26,7 @@ main {
   background: url(images/bg-desktop.svg) no-repeat;
   background-size: 100% 50%;
   background-position: bottom;
-  background-color: #0c122c;
+  background-color: #1c213d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,3 +259,21 @@ html input[type="range"]::-ms-fill-upper {
 }
 
 /* ---x---x---x---x--- custom range slider ---x---x---x---x--- */
+
+/* ------------------- footer ------------------- */
+.attribution {
+  width: 100%;
+  background: var(--gradient);
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: var(--paleBlue);
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--veryDarkBlue);
+}
+/* ---x---x---x---x--- footer ---x---x---x---x--- */
